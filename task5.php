@@ -13,7 +13,7 @@ $mult = function($x, $y){
 };
 
 $div = function($x, $y){
-    return $x == 0 ||  $y == 0 ? null : $x / $y;
+    return $y == 0 ? null : $x / $y;
 };
 
 function mathOperation($x, $y, $operation)

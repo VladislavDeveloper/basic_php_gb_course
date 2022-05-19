@@ -1,6 +1,5 @@
 <?php
 //Нахождение факториала
-
 $number = readline("Введите число, факториал которого хотите найти: " . PHP_EOL);
 
 function factorial(int $n) : int
